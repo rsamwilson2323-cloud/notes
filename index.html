@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Notes</h1>
+        <input id="search-bar" type="search" placeholder="Search notes....">
+    </header>
+
+    <main>
+        <section class="notes-layout">
+            <aside class="notes-list">
+                <button id="new-note">New Note</button>
+                <ul id="notes-list">
+                   <!-- List comes here -->
+                </ul>
+            </aside>
+            <section class="note-editor">
+                <header>
+                    <input id="note-title" type="text" placeholder="Note Title">
+                    <span id="update">Last edited</span>
+                </header>
+                <textarea id="note-content" placeholder="Write your note here..."></textarea>
+                <footer>
+                    <button id="save-btn">Save Note</button>
+                    <button id="delete-btn">Delete Note</button>
+                </footer>
+            </section>
+        </section>  
+    </main>
+
+<footer>
+    <p>&copy; 2026 My Notes App</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html> 
